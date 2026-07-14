@@ -20,11 +20,11 @@ from matplotlib.lines import Line2D
 
 # ── PALETTE ──────────────────────────────────────────────────────────────────
 PALETTE = {
-    "navy"   : "#2C3E50",   # titles, primary elements
-    "crimson": "#E67E22",   # key findings, alerts, Cluster 2
-    "steel"  : "#E74C3C",   # secondary data, Cluster 0
+    "navy"   : "#1B2A4A",   # titles, primary elements
+    "crimson": "#A12020",   # key findings, alerts, Cluster 2
+    "steel"  : "#E67E22",   # secondary data, Cluster 0
     "amber"  : "#E4B300",   # warnings, Cluster 1
-    "slate"  : "#566573",   # annotations, gridlines, secondary text
+    "slate"  : "#433D3B",   # annotations, gridlines, secondary text
     "smoke"  : "#F2F3F4",   # background panels
     "rule"   : "#D5D8DC",   # separator lines
     "white"  : "#FFFFFF",
@@ -32,17 +32,19 @@ PALETTE = {
 
 # Cluster colors — consistent across all figures and the map
 CLUSTER_COLORS = {
-    -1: PALETTE["navy"],      # Reference centers
-     0: PALETTE["steel"],     # Structural Care Desert
-     1: PALETTE["amber"],     # Rapidly Deteriorating Access
-     2: PALETTE["crimson"],   # High-Mortality Economic Corridor
+    -1: '#1B2A4A',   # navy    — reference centers (Belem, Ananindeua)
+     0: "#E4B300",   # orange  — high-mortality economic corridor (21 municipalities)
+     1: '#E67E22',   # amber   — rapidly deteriorating access (18 municipalities)
+     2: '#E65022',   # steel   — structural care desert (67 municipalities)
+     3: "#A12020",   # crimson — critical mortality burden (36 municipalities)
 }
 
 CLUSTER_LABELS = {
-    -1: "Reference Center (2)",
-     0: "Structural Care Desert (86)",
-     1: "Rapidly Deteriorating Access (8)",
-     2: "High-Mortality Economic Corridor (48)",
+    -1: 'Reference Center (2)',
+     0: 'High-Mortality Economic Corridor (21)',
+     1: 'Rapidly Deteriorating Access (18)',
+     2: 'Structural Care Desert (67)',
+     3: 'Critical Mortality Burden (36)',
 }
 
 # ── TYPOGRAPHY ────────────────────────────────────────────────────────────────

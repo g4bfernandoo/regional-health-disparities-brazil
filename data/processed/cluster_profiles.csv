@@ -2,6 +2,7 @@
 ,,mean,std,mean,std,mean,std,mean,std
 cluster,cluster_label,,,,,,,,
 -1,Reference Center,251.31,50.8,180.51,238.53,169524.12,33902.9,12.94,1.16
-0,Structural Care Desert,144.16,50.68,0.0,0.0,113561.1,45956.83,27.19,73.45
-1,Rapidly Deteriorating Access,138.62,45.43,0.0,0.0,157588.57,49277.85,565.0,248.6
-2,High-Mortality Economic Corridor,244.06,70.45,0.0,0.0,390848.09,718521.71,31.77,78.88
+0,High-Mortality Economic Corridor,203.33,64.59,0.0,0.0,693863.95,1017958.73,26.54,77.69
+1,Rapidly Deteriorating Access,159.52,58.85,0.0,0.0,129501.52,38369.73,295.76,261.85
+2,Structural Care Desert,129.76,40.51,0.0,0.0,117221.89,48851.35,24.19,69.87
+3,Critical Mortality Burden,260.74,57.0,0.0,0.0,139767.62,67230.7,24.49,129.93
