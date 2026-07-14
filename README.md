@@ -69,8 +69,8 @@ Raw DATASUS/IBGE exports
 → Variance check → zero-variance exclusion of taxa_proc_100k
 → Log-transform GDP (right-skew, mining economies)
 → StandardScaler normalization
-→ K-Means (k=4) + (ARI)
-→ ANOVA cluster validation
+→ K-Means (k=4) + internal stability validation (ARI, 30 runs)
+→ ANOVA cluster validation (F-statistics, p<0.001)
 → GeoPandas map visualization
 ```
 
@@ -78,12 +78,13 @@ Raw DATASUS/IBGE exports
 
 | Cluster | Name | n | Mean mortality (per 100k) | Mean GDP per capita |
 |---|---|---|---|---|
-| 0 | Structural Care Desert | 86 | 144.2 | R$113,561 |
-| 1 | Rapidly Deteriorating Access | 8 | 138.6 | R$157,589 |
-| 2 | High-Mortality Economic Corridor | 48 | 244.1 | R$390,848 |
+| 0 | High-Mortality Economic Corridor | 21 | 203.3 | R$693,864 |
+| 1 | Rapidly Deteriorating Access | 18 | 159.5 | R$129,502 |
+| 2 | Structural Care Desert | 67 | 129.8 | R$117,222 |
+| 3 | Critical Mortality Burden | 36 | 260.7 | R$139,768 |
 | — | Reference Centers (excluded) | 2 | — | — |
 
-**Tools:** `Python 3.10` · `pandas` · `numpy` · `scikit-learn` · `scikit-learn-extra` · `scipy` · `geopandas` · `matplotlib` · `xgboost`
+**Tools:** `Python 3.10` · `pandas` · `numpy` · `scikit-learn` · `scipy` · `geopandas` · `matplotlib` 
 
 ---
 
@@ -153,7 +154,7 @@ Run notebooks in order: `01 → 02 → 03 → 04`
 **Gabriel Fernando**
 · Prospective BME undergraduate researcher · Cardiovascular data science
 
-[GitHub](https://github.com/g4bfernandoo) · [ORCID](https://orcid.org/my-orcid?orcid=0009-0003-6367-7000)
+[GitHub](https://github.com/g4bfernandoo) · [ORCID](https://orcid.org/0009-0003-6367-7000)
 
 ---
 
