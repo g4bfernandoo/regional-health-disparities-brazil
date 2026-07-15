@@ -145,7 +145,7 @@ Run notebooks in order: `01 → 02 → 03 → 04`
 
 ## Publication Status
 
-`Under review` — *PLOS ONE* | Preprint: [OSF](https://doi.org/10.17605/OSF.IO/UK7EM)
+`Under review` — *PLOS ONE* (PONE-D-26-35451) | Preprint: [OSF](https://doi.org/10.17605/OSF.IO/UK7EM)
 
 ---
 
