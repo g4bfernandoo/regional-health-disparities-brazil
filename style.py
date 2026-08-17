@@ -21,9 +21,9 @@ from matplotlib.lines import Line2D
 # ── PALETTE ──────────────────────────────────────────────────────────────────
 PALETTE = {
     "navy"   : "#1B2A4A",   # titles, primary elements
-    "crimson": "#A12020",   # key findings, alerts, Cluster 2
-    "steel"  : "#E67E22",   # secondary data, Cluster 0
-    "amber"  : "#E4B300",   # warnings, Cluster 1
+    "crimson": "#A12020",   # key findings, alerts
+    "steel"  : "#E67E22",   # secondary data
+    "amber"  : "#E4B300",   # warnings
     "slate"  : "#433D3B",   # annotations, gridlines, secondary text
     "smoke"  : "#F2F3F4",   # background panels
     "rule"   : "#D5D8DC",   # separator lines
