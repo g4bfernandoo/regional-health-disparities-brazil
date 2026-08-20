@@ -1,5 +1,5 @@
-﻿# Cardiovascular Care Deserts in Pará, Brazil
-### A Clustering Analysis of Regional Health Disparities (2019–2023)
+﻿# Geographic Concentration of Cardiac Catheterization and Cardiovascular Mortality Heterogeneity in Pará, Brazil: 
+### A Municipal-Level Clustering Analysis (2019–2023)
 
 [![Status](https://img.shields.io/badge/status-under%20review-orange)](.)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](.)
