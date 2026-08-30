@@ -4,7 +4,7 @@
 [![Status](https://img.shields.io/badge/status-under%20review-orange)](.)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](.)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
-[![Preprint](https://img.shields.io/badge/preprint-OSF-blue)](https://doi.org/10.17605/OSF.IO/UK7EM)
+[![Preprint](https://img.shields.io/badge/preprint-Zenodo-blue)](https://doi.org/10.5281/zenodo.22176336)
 
 ---
 
