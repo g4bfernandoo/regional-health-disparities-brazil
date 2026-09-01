@@ -42,6 +42,43 @@ In Pará, Brazil — a state of 8.1 million people spanning 1.25 million km² �
 
 ---
 
+## Supporting Information
+
+**S1 Figure.** Elbow method and silhouette analysis for 
+cluster number selection.
+
+![S1](notebooks/figures/07_elbow_silhouette.png)
+
+---
+
+**S2 Figure.** Cluster profiles — mean feature values 
+by cluster.
+
+![S2](notebooks/figures/08_cluster_profiles.png)
+
+---
+
+**S3 Figure.** Cardiovascular mortality rate distribution 
+across municipalities.
+
+![S3](notebooks/figures/03_mortality_distribution.png)
+
+---
+
+**S4 Figure.** Economic gradient — GDP per capita versus 
+cardiovascular mortality rate.
+
+![S4](notebooks/figures/05_economic_gradient.png)
+
+---
+
+**S5 Figure.** Inter-cluster Euclidean distance matrix 
+(standardized feature space).
+
+![S5](notebooks/figures/S5_distance_matrix.png)
+
+---
+
 ## Research Question
 
 *Do cardiovascular mortality rates, procedure access, and socioeconomic indicators define structurally distinct profiles among municipalities in Pará, Brazil between 2019 and 2023?*
@@ -145,7 +182,7 @@ Run notebooks in order: `01 → 02 → 03 → 04`
 
 ## Publication Status
 
-`Under review` — *PLOS ONE* (PONE-D-26-35451) | Preprint: [Zenodo](https://doi.org/10.17605/OSF.IO/UK7EM)
+`Under review` — *CUREUS* | Preprint: [Zenodo](https://doi.org/10.17605/OSF.IO/UK7EM)
 ---
 
 ## Author
